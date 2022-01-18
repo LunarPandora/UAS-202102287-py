@@ -32,9 +32,7 @@ while repeat :
       
     if replay_program == 'y':
         clearWindow()
-    elif replay_program == 'n':
-        repeat = False
-        raise SystemExit()
     else:
+        repeat = False
         raise SystemExit()
 
